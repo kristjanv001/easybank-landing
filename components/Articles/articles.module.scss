@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+.container {
+  background: $veryLightGray;
+}
+
+.wrapper {
+  padding: $pad $gutter;
+
+  @media (min-width: $mobileBreakPoint) {
+    padding: $pad $gutter * 2;
+  }
+}

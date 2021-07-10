@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: $lightGrayishBlue;
+  background-color: rgb(255, 221, 221);
   font-size: $fontSmall;
   color: $grayishBlue;
   font-family: "Public Sans", sans-serif;
@@ -40,6 +40,17 @@ h6 {
   line-height: 1.1;
   color: $darkBlue;
   font-weight: 300;
+}
+
+.heading {
+  font-size: $headingLarge;
+  text-align: center;
+  margin-bottom: 0;
+
+  @media (min-width: $mobileBreakPoint) {
+    font-size: $headingLarge * 1.2;
+    text-align: left;
+  }
 }
 
 .navContainer {

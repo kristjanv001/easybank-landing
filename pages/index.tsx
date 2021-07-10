@@ -1,5 +1,7 @@
 import Head from "next/head";
 import { Hero } from "../components/Hero/Hero";
+import { Features } from "../components/Features/Features";
+import { Articles } from "../components/Articles/Articles";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
 
       <main>
         <Hero />
+        <Features />
+        <Articles />
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
           veniam ducimus quae praesentium ipsam inventore excepturi totam

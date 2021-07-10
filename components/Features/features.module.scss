@@ -1,0 +1,71 @@
+@import "../../styles/variables.scss";
+
+.container {
+  background-color: $lightGrayishBlue;
+}
+
+.wrapper {
+  padding: $pad $gutter;
+
+  @media (min-width: $mobileBreakPoint) {
+    padding: $pad $gutter * 2;
+  }
+}
+
+.subHeading {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: $headingMedium;
+
+  @media (min-width: $headingMedium * 1.1) {
+    text-align: left;
+  }
+}
+
+.mainText {
+  text-align: center;
+  margin-bottom: 3.5em;
+
+  @media (min-width: $mobileBreakPoint) {
+    margin-top: 2rem;
+    text-align: left;
+  }
+}
+
+.mainFeature {
+  max-width: 640px;
+}
+
+.featureContainer {
+  //   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  &:not(:last-of-type) {
+    margin-bottom: 1.5em;
+  }
+
+  @media (min-width: $mobileBreakPoint) {
+    text-align: left;
+    flex-direction: row;
+  }
+}
+
+.featureWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $mobileBreakPoint) {
+    align-items: flex-start;
+
+    &:not(:last-of-type) {
+      padding-right: 40px;
+    }
+  }
+}
+
+.icon {
+  margin-bottom: 1.4em;
+}

@@ -9,7 +9,8 @@ export const Layout = ({ children }: LayoutProps) => {
   return (
     <div>
       <Header />
-      <div>{children}</div>
+      {children}
+      {/* Footer */}
     </div>
   );
 };

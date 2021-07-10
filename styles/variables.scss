@@ -13,13 +13,19 @@ $white: hsl(0, 0%, 100%);
 // breakpoints
 $mobileBreakPoint: 960px;
 
-// font sizes
+// text sizes
 $fontRegular: 1.125em;
 $fontSmall: 0.9em;
+
+// heading sizes
+$headingExtraLarge: 2.825rem;
+$headingLarge: 2.1rem;
+$headingMedium: 1.25em;
+$headingSmall: 1rem;
 
 // other
 $easeInOut: 0.2s ease-in-out;
 $navHeight: 80px;
 
 $gutter: 6vw;
-$pad: 6em;
+$pad: 5em;
