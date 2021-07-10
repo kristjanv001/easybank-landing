@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.button {
+  border-radius: 50px;
+  border: none;
+  background: $gradient;
+  color: $lightGrayishBlue;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all $easeInOut;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    outline-color: coral;
+  }
+}

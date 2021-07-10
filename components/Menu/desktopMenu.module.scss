@@ -1,0 +1,62 @@
+@import "../../styles//variables.scss";
+
+.container {
+  display: block;
+  margin: 0 10px;
+  height: 100%;
+  display: flex;
+
+  ul {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li:not(:last-child) {
+      margin-right: 25px;
+    }
+
+    li {
+      cursor: pointer;
+      padding: 0 5px;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      position: relative;
+
+      a {
+        position: relative;
+        display: flex;
+        align-items: center;
+        color: $grayishBlue;
+        text-decoration: none;
+        font-weight: 400;
+        height: 100%;
+        transition: all $easeInOut;
+
+        &:hover {
+          color: $darkBlue;
+        }
+
+        &:hover::after {
+          transition: all $easeInOut;
+          background: $gradient;
+          opacity: 1;
+        }
+
+        &::after {
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 5px;
+          position: absolute;
+          width: 100%;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
