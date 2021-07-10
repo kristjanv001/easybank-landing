@@ -6,7 +6,8 @@ export const Logo = () => {
     <>
       <Link href="/">
         <a className={styles.a}>
-          <img className={styles.image} src="/logo.svg" alt="Easybank" />
+          {/* <img className={styles.image} src="/logo.svg" alt="Easybank" /> */}
+          <p className={styles.image}>Easybank</p>
         </a>
       </Link>
     </>
