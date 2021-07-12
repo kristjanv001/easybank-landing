@@ -7,6 +7,7 @@ import { useState } from "react";
 import { CTAButton } from "../CTAButton/CTAButton";
 import { Overlay } from "../Overlay/Overlay";
 import { MobileMenuBtn } from "../Menu/MobileMenuBtn";
+import Link from "next/link";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,11 @@ export const Header = () => {
 
   return (
     <header className={`${styles.header} navContainer`}>
-      <Logo />
+      <Link href="/">
+        <a className={styles.a}>
+          <Logo />
+        </a>
+      </Link>
       <div className={styles.mobileItems}>
         <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
         <MobileMenuBtn isOpen={isOpen} setIsOpen={setIsOpen} />

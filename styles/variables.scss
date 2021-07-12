@@ -14,18 +14,21 @@ $white: hsl(0, 0%, 100%);
 $mobileBreakPoint: 960px;
 
 // text sizes
-$fontRegular: 1.125em;
-$fontSmall: 0.9em;
+$fontRegular: 1rem;
+$textSmall: 0.9rem;
+$textXSmall: 0.7rem;
 
 // heading sizes
 $headingExtraLarge: 2.825rem;
 $headingLarge: 2.1rem;
 $headingMedium: 1.25em;
-$headingSmall: 1rem;
+$headingSmall: 0.9rem;
 
 // other
 $easeInOut: 0.2s ease-in-out;
+$easeOut: 0.2s ease-out;
 $navHeight: 80px;
 
 $gutter: 6vw;
 $pad: 5em;
+$borderRadius: 5px;

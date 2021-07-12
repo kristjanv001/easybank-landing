@@ -16,20 +16,6 @@ export default function Home() {
         <Hero />
         <Features />
         <Articles />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-          veniam ducimus quae praesentium ipsam inventore excepturi totam
-          doloribus obcaecati ab beatae dolorem illo, voluptates illum nemo
-          quibusdam placeat, mollitia nulla fugiat magnam, repellat deserunt?
-          Dolorem in, culpa voluptate provident vitae consequuntur neque sit
-          velit quo dolor asperiores, obcaecati architecto, modi ab? Rerum, a
-          distinctio facilis eveniet excepturi quasi eaque, eum, exercitationem
-          nesciunt eligendi nobis mollitia porro ipsa ut neque libero? Obcaecati
-          maiores perferendis, quaerat minus nemo vitae dolorum repudiandae
-          voluptates, at sit consectetur modi dolores? Consequatur fuga
-          accusamus autem voluptatum ratione. Asperiores optio, accusantium
-          veniam hic voluptatem corporis beatae aliquam nemo atque molestias.
-        </p>
       </main>
     </div>
   );

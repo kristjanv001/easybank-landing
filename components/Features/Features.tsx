@@ -14,7 +14,7 @@ export const Features = () => {
           </p>
         </div>
 
-        <div className={styles.featureContainer}>
+        <div className={styles.grid}>
           {featuresData.map(({ title, description, icon }, idx) => {
             return (
               <div key={idx} className={styles.featureWrapper}>

@@ -15,8 +15,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: rgb(255, 221, 221);
-  font-size: $fontSmall;
+
+  font-size: $fontRegular;
   color: $grayishBlue;
   font-family: "Public Sans", sans-serif;
   overflow-x: hidden;
@@ -30,12 +30,21 @@ body {
   }
 }
 
+p {
+  margin-top: 0;
+}
+
+button {
+  font-family: "Public Sans", sans-serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  margin-bottom: 1em;
   margin-top: 0;
   line-height: 1.1;
   color: $darkBlue;
@@ -45,7 +54,7 @@ h6 {
 .heading {
   font-size: $headingLarge;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 0.8em;
 
   @media (min-width: $mobileBreakPoint) {
     font-size: $headingLarge * 1.2;

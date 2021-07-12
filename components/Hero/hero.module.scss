@@ -1,3 +1,4 @@
+@use 'sass:math';
 @import "../../styles/variables.scss";
 
 .container {
@@ -12,9 +13,7 @@
 }
 
 .innerContainer {
-  //   border: 1px solid red;
-  // padding: $gutter * 1.5 $gutter $gutter * 3;
-  padding: $pad / 2 $gutter $pad;
+  padding: math.div($pad, 2) $gutter $pad;
 
   @media (min-width: $mobileBreakPoint) {
     padding: 0 0 0 $gutter * 2;
@@ -25,7 +24,6 @@
 }
 
 .heroBg {
-  // border: 1px solid blue;
   position: relative;
   background-image: url("/bg-intro-mobile.svg");
   background-size: cover;
@@ -93,7 +91,7 @@
   }
 
   .heading {
-    font-size: $headingExtraLarge / 1.1;
+    font-size: math.div($headingExtraLarge, 1.1);
     margin-bottom: 1.15rem;
     text-align: center;
 

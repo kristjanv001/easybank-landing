@@ -1,0 +1,119 @@
+@use 'sass:math';
+@import "../../styles/variables.scss";
+
+.container {
+  background-color: $darkBlue;
+}
+
+.grid {
+  padding: math.div($pad, 2) $gutter;
+  text-align: center;
+
+  @media (min-width: $mobileBreakPoint) {
+    padding: math.div($pad, 1.5) $gutter * 2;
+    text-align: left;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.5fr 1.5fr 2fr;
+    gap: 2em;
+  }
+
+  @media (min-width: 1300px) {
+    gap: 7em;
+  }
+}
+
+.logo {
+  margin-bottom: 1.5em;
+}
+
+.logoSocials {
+  margin-bottom: 1.5em;
+
+  @media (min-width: $mobileBreakPoint) {
+    min-width: 200px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.icon {
+  cursor: pointer;
+  transition: all $easeInOut;
+  fill: #fff;
+
+  &:not(:last-of-type) {
+    margin-right: 1em;
+
+    @media (min-width: $mobileBreakPoint) {
+      margin-right: 0.5em;
+    }
+  }
+
+  &:hover {
+    fill: $limeGreen;
+  }
+}
+
+.menuItems {
+  @media (min-width: $mobileBreakPoint) {
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.menuItem {
+  display: block;
+  margin-bottom: 0.7em;
+
+  @media (min-width: $mobileBreakPoint) {
+    margin-bottom: 0;
+  }
+
+  a {
+    cursor: pointer;
+    padding: 0.25em;
+    text-decoration: none;
+    color: $white;
+    font-size: $textSmall;
+    transition: all $easeInOut;
+
+    &:hover {
+      color: $limeGreen;
+    }
+
+    @media (min-width: $mobileBreakPoint) {
+      padding: 0;
+    }
+  }
+
+  &:last-of-type {
+    @media (min-width: $mobileBreakPoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.copyRightContainer {
+  text-align: center;
+  margin-top: 2em;
+
+  button:first-of-type {
+    margin-bottom: 1.8em;
+  }
+
+  @media (min-width: $mobileBreakPoint) {
+    text-align: end;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+}
+
+.copyRightText {
+  display: block;
+  font-size: $textSmall;
+}

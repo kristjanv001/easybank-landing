@@ -11,3 +11,44 @@
     padding: $pad $gutter * 2;
   }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.cardContainer {
+  border-radius: $borderRadius;
+  background-color: $white;
+  margin-bottom: 2em;
+}
+
+.cardWrapper {
+  padding: 1.2em 1.8em 1.8em 2.2em;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: $borderRadius $borderRadius 0px 0px;
+}
+
+.author {
+  display: inline-block;
+  font-size: $textXSmall;
+  margin-bottom: 1em;
+}
+
+.text {
+  font-size: $textSmall;
+  line-height: 1.5;
+}
+
+.title {
+  transition: all $easeInOut;
+  &:hover {
+    cursor: pointer;
+    color: $limeGreen;
+  }
+}
