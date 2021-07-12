@@ -4,8 +4,7 @@
 
 ## 📝 Description
 
-This is an intermediate challenge on Frontendmentor.io.
-https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN
+This is an intermediate challenge on [Frontendmentor.io](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
 
 ## 🥞 Stack
 
