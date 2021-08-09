@@ -1,10 +1,10 @@
 # Easybank landing page
 
-![](https://i.imgur.com/xiQ82PF.png)
+![](https://i.imgur.com/39K2AKa.png)
 
 ## 📝 Description
 
-This is a art gallery app.
+This is landing page.
 
 ## 🥞 Stack
 
@@ -14,4 +14,4 @@ This is a art gallery app.
 
 ## 🌎 Demo
 
-https://galleria2021.vercel.app/
+https://easybank2021.vercel.app
