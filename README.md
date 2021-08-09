@@ -1,10 +1,10 @@
 # Easybank landing page
 
-![](https://i.imgur.com/GOoT9Cm.jpg)
+![](https://i.imgur.com/xiQ82PF.png)
 
 ## 📝 Description
 
-This is an intermediate challenge on [Frontendmentor.io](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN).
+This is a art gallery app.
 
 ## 🥞 Stack
 
@@ -14,4 +14,4 @@ This is an intermediate challenge on [Frontendmentor.io](https://www.frontendmen
 
 ## 🌎 Demo
 
-https://easybank2021.vercel.app/
+https://galleria2021.vercel.app/
